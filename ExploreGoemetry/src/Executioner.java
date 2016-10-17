@@ -21,6 +21,15 @@ public class Executioner {
 		CommonFuncs cf2 = new Square();
 		Outputs(cf2);
 
+		Square s = new Square();
+
+		if (s.CheckSquare() == false) {
+			System.out.println("It is not a square");
+		} else {
+			System.out.println("It is square");
+
+		}
+
 	}
 
 }
