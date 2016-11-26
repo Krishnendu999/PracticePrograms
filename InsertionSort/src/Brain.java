@@ -10,7 +10,6 @@ public class Brain {
 		ActualArray = actualArray;
 	}
 
-
 	int[] Compute() {
 	int temp;
 		if (n > 1) {
