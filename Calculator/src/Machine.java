@@ -5,21 +5,21 @@ public class Machine {
 	final String Action;
 	private double result;
 
-	public double getNumberOne() {
-		return numberOne;
-	}
-
-	public void setNumberOne(double numberOne) {
-		this.numberOne = numberOne;
-	}
-
-	public double getNumberTwo() {
-		return numberTwo;
-	}
-
-	public void setNumberTwo(double numberTwo) {
-		this.numberTwo = numberTwo;
-	}
+//	public double getNumberOne() {
+//		return numberOne;
+//	}
+//
+//	public void setNumberOne(double numberOne) {
+//		this.numberOne = numberOne;
+//	}
+//
+//	public double getNumberTwo() {
+//		return numberTwo;
+//	}
+//
+//	public void setNumberTwo(double numberTwo) {
+//		this.numberTwo = numberTwo;
+//	}
 
 	public Machine(double firstint, double secondint, String inputoperation) {
 		this.numberOne = firstint;

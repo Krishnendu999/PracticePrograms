@@ -24,7 +24,7 @@ public class Executioner {
 		System.out.println("Sorted array is : ");
 		System.out.println(java.util.Arrays.toString(b.Compute()));
 
-		System.out.println("This Array is sorted using Selection Sort Algorithm");
+		System.out.println("This Array is sorted using Insertion Sort Algorithm");
 	}
 
 }
