@@ -22,6 +22,7 @@ public class Brain {
 						ActualArray[j]=temp;
 					} 
 				}
+				System.out.println(java.util.Arrays.toString(ActualArray));
 			}
 		} 
 		return ActualArray;

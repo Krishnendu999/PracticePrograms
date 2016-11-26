@@ -20,14 +20,9 @@ public class Executioner {
 		b.setActualArray(TempArray);
 
 		System.out.println("UnSorted array is : ");
-			for (int item1 : b.getActualArray()) {
-				System.out.println(item1);
-			}
-
+		System.out.println(java.util.Arrays.toString(b.getActualArray()));
 		System.out.println("Sorted array is : ");
-			for (int item2 : b.Compute()) {
-				System.out.println(item2);
-			}
+		System.out.println(java.util.Arrays.toString(b.Compute()));
 
 		System.out.println("This Array is sorted using Selection Sort Algorithm");
 	}
